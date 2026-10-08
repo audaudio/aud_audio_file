@@ -1,0 +1,22 @@
+// @license
+// Copyright (c) Audanika. All Rights Reserved.
+//
+// Use of this source code is governed by terms that can be
+// found in the LICENSE file in the root of this package.
+
+{
+  "name": "aud_audio_file",
+  "summary": "Audio files for the Audanika Audio Engine: decoders, disk-streaming player, recorder, offline bounce.",
+  "domain": [
+    "Audio files for the Audanika Audio Engine"
+  ],
+  "interfaces": {
+    "uses": {
+      "aud_audio_graph": "package dependency"
+    },
+    "usedBy": {
+      "aud_audio_backing": "consumes this package",
+      "aud_audio_ui_waveform": "consumes this package"
+    }
+  }
+}
