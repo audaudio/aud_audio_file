@@ -9,4 +9,4 @@
 // coverage:ignore-file
 
 /// The version of the `aud_audio_file` package.
-const String audAudioFileVersion = '0.1.1';
+const String audAudioFileVersion = '1.0.0';
